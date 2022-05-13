@@ -1,0 +1,664 @@
+* {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin:0;
+}
+body {
+    margin:0;
+    font-family: 'Merriweather',serif ;
+    background-position: center;
+}
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento',cursive;
+}
+.top-container {
+    background-color:  #E4F9F5;
+    width: 100%;
+}
+#LD {
+    padding-top: 80px;
+    height: 120px;
+}
+#intro {
+    font-size: 1rem;
+    font-family:'Merriweather',serif;
+    color:black;
+}
+h2 {
+    font-family: 'Monserrat',sans-serif;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #66bfbf;
+}
+.bottom-cloud {
+    position:absolute;
+    left: 20%;
+    top:315px;
+}
+.top-cloud {
+    position:absolute;
+    right: 500px;
+    top: 140px;
+}
+#greeting {
+    padding: 60px;
+    font-size: 4.5rem;
+    color:#66bfbf;
+}
+.bold {
+    color: rgb(13, 28, 235);
+    font-weight: bold;
+}
+
+/* Middle Container */
+
+.middle-container {
+    background-color: rgb(192, 226, 249);
+    width:100%;
+}
+p {
+    line-height: 1.4rem;
+}
+#linespace{
+    line-height: 1.6rem;
+}
+.luc-image {
+    height: 100px;
+    border: 3px solid brown;
+    border-radius: 20%;
+    margin-top: 30px;
+}
+.web-design {
+    padding-bottom: 30px;
+}
+.heart,.hot2 {
+    height: 15px;
+}
+.cat-image{
+    padding-bottom: 30px;
+}
+.app-design {
+    padding-bottom: 30px;
+}
+.hot2{
+    background-color: rgb(199, 150, 150);
+}
+#endpara {
+    padding-bottom: 30px;
+}
+.chillies {
+    height:85px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.spcolour {
+    color: blue;
+}
+#greeting {
+    padding-top: 70px;
+    font-size: 3em;
+}
+#music-note {
+    font-size: 12px;
+    color: black;
+}
+.skills,.skill-row {
+    background-color:#E4F9F5 ;
+    width: 100%;
+}
+#p-padding {
+    padding:30px;
+}
+#difcolour {
+    color: #407d9b;
+}
+
+
+/* Contact page */
+
+
+.contact-container {
+    width:100%;
+    height: 100%;
+}
+.contact-img {
+    display:inline-block;
+    text-align: center;
+    height:50px;
+    padding: 15px 0px 15px 0px;
+}
+
+.contact-container img {
+    height: 100px;
+    padding-top: 15px;
+}
+#endh3 {
+    padding-bottom: 30px;
+}
+#enda {
+    padding-bottom: 30px;
+}
+.submit {
+    background-color: yellow;
+    border: solid 2px blue;
+    width: 265px;
+}
+h4 {
+    color: rgb(5, 51, 103);
+    padding-top: 100px;
+}
+p.justify{
+    text-align: justify;
+}
+.parasections-container {
+    width:20%;
+    margin-left: 40%;
+}
+.largerpluscolour {
+    font-size: 1.1rem;
+    color: blue;
+}
+.colour {
+    color: red;
+}
+
+/* Main About Container */
+
+div.introduction {
+    text-align:center;
+}
+.parasections-container {
+    margin-left: 40%;
+}
+
+
+/* Social media section inside contact page*/
+
+
+
+.footer-links {
+    margin-left: 3%;
+}
+a {
+    margin-right: 50px;
+}
+.bottom-container {
+    padding-top: 30px;
+}
+#copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: -3%;
+}
+
+/* Navigation section */
+
+ul {
+    list-style: none;
+}
+a,li {
+    text-decoration: none;
+    color: rgb(37, 32, 174);
+    display: inline-block;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+}
+.navbar {
+    width:100%;
+    height:3%;
+    background-color: rgb(186, 199, 199);
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: auto;
+    position: fixed;
+}
+.active, a:hover{
+    background-color: rgb(229, 248, 16);
+}
+
+/* The about me page */
+
+#title {
+    font-size: 1.3rem;
+    padding-top: 30px;
+}
+#years {
+    font-family: 'Monserrat',sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color:#66bfbf;
+}
+#n3 {
+    text-align: left;
+}
+td {
+    padding-left: 5px;
+    text-align: left;
+}
+#ed-table,td {
+    border: 1px solid black;
+}
+h4#intro {
+    padding-top: 30px;
+}
+/* __________________________________________________________________________________ */
+/* Mobile responsive breakpoints */
+/* __________________________________________________________________________________ */
+
+@media only screen and (max-width: 280px){
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        font-size: .7rem ;
+    }
+    .mountain {
+        width: 90%;
+    }
+    a#enda.btn {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    p#copyright {
+        font-size: 0.7rem ;
+        margin-right: 11%;
+    }
+    .top-cloud,.bottom-cloud {
+        visibility: hidden ;
+    }
+  
+     /* About Elements */
+
+     .div-introduction {
+        width:100%;
+    }
+    h4 #intro {
+        font-size: 1.1rem;
+    }
+    .parasections-container {
+        width:90%;
+        margin-left: 16px;
+        text-align: center;
+    }
+    .certificates {
+        font-size: .8rem;
+    }
+    #n3 {
+        font-size: .7rem;
+    }
+    #n3.subheadings {
+        font-size: 1.3rem;
+    }
+    td,th {
+        font-size: 0.5rem;
+    }
+  }
+  
+  @media only screen and (min-width: 350px){
+    /* Will apply this rule if screen smaller than 375px. */
+   .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .8rem ;
+        overflow: hidden;
+    }
+    .mountain {
+        width: 90%;
+    }
+    .btn {
+        margin-left: 15%;
+        font-size: 1rem;
+    }
+    #copyright {
+        font-size: .8rem;
+        margin-left: 2%;
+    }
+    .div-introduction {
+        width:100%;
+    }
+    h4 #intro {
+        font-size: 1.4rem;
+    }
+    .parasections-container {
+        width:90%;
+        margin-left: 16px;
+        text-align: center;
+    }
+    .certificates {
+        font-size: .9rem;
+    }
+    #n3 {
+        font-size: .8rem;
+    }
+    #n3.subheadings {
+        font-size: 1.4rem;
+    }
+  }
+  
+@media only screen and (min-width: 375px){
+   .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .8rem;
+        overflow: hidden;
+    }
+    .mountain {
+        width: 90%;
+    }
+    a#enda.btn {
+        margin-left: 15%;
+        font-size: 1rem;
+    }
+    #copyright {
+        font-size: .8rem;
+        margin-left: 2%;
+    }
+    /* About Elements */
+
+    .div-introduction {
+        width:100%;
+        
+    }
+    h4#intro {
+        font-size: .5rem;
+        text-align: center;
+    }
+    .parasections-container {
+        width:100%;
+        margin-left: 16px;
+        text-align: center;
+    }
+    .certificates {
+        font-size: .9rem;
+    }
+    #n3 {
+        font-size: .8rem;
+    }
+    #n3.subheadings {
+        font-size: 1.4rem;
+    }
+    p.justity {
+        font-size: .5rem;
+    }
+  }
+
+  @media only screen  and (min-width: 390px) {
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .8rem;
+        overflow: hidden;
+    }
+    .mountain {
+        width: 90%;
+    }
+    .btn {
+        margin-left: 15%;
+        font-size: 1rem;
+    }
+    #copyright {
+        font-size: .8rem;
+        margin-left: -2%;
+    }
+}
+@media only screen  and (min-width: 412px) {
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .8rem;
+        overflow: hidden;
+    }
+    .mountain {
+        width: 90%;
+    }
+    .btn {
+        margin-left: 15%;
+        font-size: 1rem;
+    }
+    #copyright {
+        font-size: .8rem;
+        margin-left: -2%;
+    }
+}
+@media only screen  and (min-width: 540px){
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .8rem;
+        overflow: hidden;
+    }
+    .mountain {
+        width: 90%;
+    }
+    .btn {
+        margin-left: 13%;
+    }
+    #copyright {
+        font-size: 0.8rem;
+        margin-left: 4%;
+    }
+    .top-cloud, .bottom-cloud {
+        visibility: hidden;
+    }
+}
+@media only screen  and (min-width: 720px) {
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .9rem;
+        overflow: hidden;
+        font-size: 1.2rem;
+    }
+    .mountain {
+        width: 90%;
+    }
+    .btn {
+        margin-left: 9%;
+        font-size: 1.5rem;
+    }
+    #copyright {
+        font-size: 1.4rem;
+    }
+}
+@media only screen  and (min-width: 768px) {
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        /* font-size: 1.4rem; */
+        overflow: hidden;
+        font-size: 1.2rem !important;
+    }
+    .mountain {
+        width: 90%;
+    }
+    a#enda.btn {
+        margin-left: 9%;
+        font-size: 1.5rem;
+    }
+    #copyright {
+        font-size: 1.4rem;
+    }
+}
+@media only screen  and (min-width: 820px) {
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 1.2rem !important;
+        overflow: hidden;
+        /* font-size: 1.2rem; */
+    }
+    .mountain {
+        width: 90%;
+    }
+    a#enda.btn {
+        margin-left: 8%;
+        font-size: 1.5rem;
+    }
+    #copyright {
+        font-size: 1.1rem;
+    }
+    /* About Elements */
+    .div-introduction {
+        width:100%;
+    }
+    h4#intro {
+        font-size: 1.7rem;
+    }
+    .parasections-container {
+        width:90%;
+        margin-left: 16px;
+        text-align: center;
+    }
+    .certificates {
+        font-size: 1.35rem;
+    }
+    #n3 {
+        font-size: 1.35rem;
+    }
+    #n3.subheadings {
+        font-size: 1.9rem;
+    }
+    td,th {
+        font-size: 1.3rem;
+    }
+    #years {
+        font-size: 1.9rem;
+    }
+  }
+
+@media only screen  and (min-width: 912px) {
+    .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        /* padding-bottom: 8px; */
+        /* font-size: 2rem; */
+        overflow: hidden;
+        /* font-size: 1.2rem; */
+    }
+    ul a{
+        padding-bottom: 8px;
+    }
+    .mountain {
+        width: 90%;
+    }
+    a#enda.btn {
+        margin-left: 7%;
+        font-size: 1.6rem;
+    }
+    p#copyright {
+        font-size: 1.5rem;
+    }
+    img.luc-image {
+        height: 140px;
+    }
+    h2,h3 {
+        font-size: 2.5rem;
+    }
+    p#linespace {
+        font-size:2rem ;
+        line-height: 3rem;
+    }
+    p{
+        font-size:1.8rem ;
+        line-height: 3rem;
+    }
+}
+@media only screen  and (min-width: 1024px) {
+
+}
+ .nav-header {
+        width: 100%;
+    }
+    ul li {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .6rem ;
+        overflow: hidden;
+        font-size: .7rem !important;
+        padding-bottom: 4px;
+        padding-top: 4px;
+    }
+    .mountain {
+        width: 90%;
+    }
+    /* a#enda.btn {
+        margin-left: 3%;
+        font-size: 1.2rem;
+    } */
+    /* #copyright {
+        font-size: .4rem;
+        margin-left: 3%;
+    } */
+    /* .top-cloud,.bottom-cloud{
+        visibility:visible;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
